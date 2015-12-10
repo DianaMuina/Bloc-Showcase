@@ -1,16 +1,8 @@
 body {
     background-color: white;
-}
-
-h1 {
     color: black;
 }
 
-p {
-    color:black;
-    padding-top: 25px;
-    width:400px;
-}
 ul {
     list-style-type: none;
     margin: 0;
@@ -32,13 +24,35 @@ li a {
 
 }
 
+/* Nav */
+
+nav {
+  background-color: red;
+}
+
+.logo {
+  width: 250px;
+}
+
+.drop {
+  display: none;
+}
+
+.menu_dropdown {
+  float: right;
+}
+
+/* end of nav */
+
+
+
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
 
 .menu_dropdown {
-	
+
 }
 .actual_piece {
 	padding-left: 250px;
