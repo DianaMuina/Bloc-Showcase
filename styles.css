@@ -27,15 +27,19 @@ li a {
 /* Nav */
 
 nav {
-  background-color: red;
+  background-color: white;
+  margin-right: 20px;
 }
-
 .logo {
   width: 250px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left:600px;
 }
 
 .drop {
   display: none;
+
 }
 
 .menu_dropdown {
@@ -51,9 +55,35 @@ li a:hover {
     background-color: #111;
 }
 
-.menu_dropdown {
-
-}
 .actual_piece {
-	padding-left: 250px;
+  padding-top: 20px;
+	padding-left: 600px;
+  background-color: white;
 }
+
+.image_container {
+  float:left;
+}
+
+.pieceone {
+  padding-left: 450px;
+  width:500px;
+  height:850px;
+}
+
+.arrow {
+  width: 50px;
+  background-color: white;
+  padding-bottom: 250px;
+  padding-left: 50px;
+ }
+
+#rectangle {
+    float: left;
+    width:65px;
+    height:200px;
+    background-color:blue;
+    padding-left:600px;
+    margin-left:400px;
+}
+
