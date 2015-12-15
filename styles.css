@@ -27,19 +27,29 @@ li a {
 /* Nav */
 
 nav {
-  background-color: white;
+  background-color: red;
+  width: 100%;
   margin-right: 20px;
 }
 .logo {
-  width: 250px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left:600px;
+  width: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left:2%;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 200px;
+  }
+}
+
+#port {
+  padding-right: 2%;
 }
 
 .drop {
   display: none;
-
 }
 
 .menu_dropdown {
@@ -51,24 +61,31 @@ nav {
 
 
 /* Change the link color to #111 (black) on hover */
+.content {
+  width: 80%;
+  margin: 0 auto;
+  background-color: yellow;
+}
+
+
 li a:hover {
     background-color: #111;
 }
 
 .actual_piece {
   padding-top: 20px;
-	padding-left: 600px;
   background-color: white;
+  width: 35%;
+  float: left;
 }
 
 .image_container {
   float:left;
+  margin-right: 5%;
 }
 
 .pieceone {
-  padding-left: 450px;
-  width:500px;
-  height:850px;
+  width:60%;
 }
 
 .arrow {
@@ -86,4 +103,3 @@ li a:hover {
     padding-left:600px;
     margin-left:400px;
 }
-
