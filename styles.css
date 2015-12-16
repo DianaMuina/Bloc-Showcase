@@ -45,7 +45,7 @@ nav {
 }
 
 #port {
-  padding-right: 2%;
+  padding-right:5%;
 }
 
 .drop {
@@ -77,11 +77,11 @@ li a:hover {
   background-color: white;
   width: 35%;
   float: left;
+  padding-left: 60%;
 }
 
 .image_container {
   float:left;
-  margin-right: 5%;
 }
 
 .pieceone {
@@ -89,10 +89,10 @@ li a:hover {
 }
 
 .arrow {
-  width: 50px;
+  width: 5%;
   background-color: white;
-  padding-bottom: 250px;
-  padding-left: 50px;
+  float: left;
+  padding-left: 80%;
  }
 
 #rectangle {
