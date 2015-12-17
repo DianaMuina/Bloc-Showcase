@@ -63,8 +63,8 @@ nav {
 /* Change the link color to #111 (black) on hover */
 .content {
   width: 80%;
-  margin: 0 auto;
-  background-color: yellow;
+  margin: 0 7%;
+  display: inline-block;
 }
 
 
@@ -73,27 +73,42 @@ li a:hover {
 }
 
 .actual_piece {
-  padding-top: 20px;
-  background-color: white;
-  width: 35%;
+  /*background-color: white;*/
   float: left;
+  margin-top: 40vh;
+  padding-top: 20px;
+  width: 35%;
 }
 
 .image_container {
   float:left;
   margin-right: 5%;
+  width: 60%;
 }
 
 .pieceone {
-  width:60%;
+  width:100%;
 }
 
+/*this is another area where the hard-coded padding value was hurting you*/
 .arrow {
-  width: 50px;
-  background-color: white;
-  padding-bottom: 250px;
-  padding-left: 50px;
+  width: 2%;
+  margin-left: 1%;
+  margin-top: 50vh;
+  display: block;
+  float: left;
+  /*padding-bottom: 250px;
+  padding-left: 50px;*/
  }
+.arrow_right {
+  width: 2%;
+  margin-right: 1%;
+  margin-top: 50vh;
+  display: block;
+  float: right;
+ /*padding-bottom: 250px;
+ padding-left: 50px;*/
+}
 
 #rectangle {
     float: left;
